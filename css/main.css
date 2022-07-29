@@ -1,21 +1,28 @@
 /* GLOBAL */
 * {
-    margin: 0;
-    padding: 0;
+
     box-sizing: border-box;
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "Open sans", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #444;
 }
 
 
 /* CONTAINER */
 .container {
     width: 100%;
-    max-width: 1160;
+    max-width: 1160px;
     margin-left: auto;
+    background-color: grey;
     margin-right: auto;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
+
+
+
+
