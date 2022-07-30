@@ -92,6 +92,7 @@ body {
 }
 
 .main-link {
+    display: inline-block;
     padding: 10px 22px;
     text-decoration: none;
     background-color: #de2e54;
@@ -113,6 +114,63 @@ body {
     background-color: #de2e54;
     color: #fff;
 }
+
+
+/* HERO SECTION */
+
+.hero {
+    background-color: #0EB4C1;
+}
+
+.site-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hero-content {
+    width: 500px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.hero-heading {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-family: "Open sans condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.hero-text {
+    margin-bottom: 36px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    
+}
+
+.hero-content .main-link:hover {
+    background-color: rgba(222, 46, 84, 0.8);
+    border-color: transparent;
+    color: #fff;
+}
+
+.hero-content .main-link:active {
+    background-color: rgba(222, 46, 84, 0.6);
+    border-color: transparent;
+    opacity: 1;
+    color: #fff;
+}
+
+.hero-img {
+    align-self: flex-end;
+}   
 
 
 
