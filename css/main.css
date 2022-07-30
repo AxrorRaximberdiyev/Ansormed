@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Open sans", "Arial", sans-serif;
     font-size: 16px;
@@ -58,10 +62,6 @@ body {
 
 .site-header-logo-text {
 
-}
-
-.sitenav {
-    
 }
 
 .sitenav-list {
@@ -137,7 +137,7 @@ body {
 .hero-heading {
     margin-top: 0;
     margin-bottom: 16px;
-    font-family: "Open sans condensed";
+    font-family: "Open sans condensed", "Open sans", "Arial", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -191,6 +191,7 @@ body {
 }
 .index-services-list {
     list-style-type: none;
+    margin-bottom: 60px;
 }
 .index-services-item {
     display: flex;
@@ -201,8 +202,7 @@ body {
     margin-bottom: 80px;
 }
 
-.index-service {
-}
+
 .index-service-img {
     width: 200px;
     height: 200px;
@@ -228,6 +228,58 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+}
+
+.service-link-parent {
+    display: flex;
+    justify-content: center;
+}
+
+/* ========= CTA SECTION ========== */
+
+.cta {
+    background-color: #0EB4C1;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.cta-heading {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-family: "Open sans condensed", "Open sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.cta-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-link-outline {
+    border: 2px solid #FFFFFF;
+    color: #fff;
+    background-color: transparent;
+}
+
+.main-link-outline:hover {
+    background-color: #DE2E54;
+    border: 2px solid #DE2E54;
+    border-color: transparent;
+    color: #fff;
+}
+
+.main-link-outline:active {
+    opacity: 0.6;
+}
+
+.cta-link:not(:last-child) {
+    margin-right: 40px;
 }
 
 
