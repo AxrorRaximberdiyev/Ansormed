@@ -53,6 +53,7 @@ body {
 
 .site-header-logo-img {
     margin-right: 16px;
+    border-radius: 50%;
 }
 
 .site-header-logo-text {
@@ -115,3 +116,34 @@ body {
 
 
 
+/* SITE FOOTER */
+.site-footer {
+    background-color: #222;
+}
+
+.site-footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.site-footer-logo {
+    color: #fff;
+}
+
+.site-footer-logo:active {
+    color: #fff;
+}
+
+.sitenav-site-footer .sitenav-link {
+    color: #fff;
+}
+
+.sitenav-site-footer .sitenav-link:hover {
+    color: #de2e54;
+}
+
+.sitenav-site-footer .sitenav-link:active {
+    color: #fff;
+}
